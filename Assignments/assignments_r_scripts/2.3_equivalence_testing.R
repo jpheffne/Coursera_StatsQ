@@ -6,15 +6,16 @@ library(TOSTER)
 
 #Question 2 and 3 (replace the zeroes with correct values)
 # You can type ?TOSTtwo for help with the TOSTtwo function
-TOSTtwo(m1 = 0.0, m2 = 0.0, sd1 = 0.0, sd2 = 0.0, n1 = 00, n2 = 00, low_eqbound_d = -0.0, high_eqbound_d = 0.0)
+TOSTtwo(m1 = 4.55, m2 = 4.87, sd1 = 1.05, sd2 = 1.11, 
+        n1 = 150, n2 = 150, low_eqbound_d = -0.5, high_eqbound_d = 0.5)
 
 #Question 4 (replace the zeroes with correct values)
 # You can type ?powerTOSTtwo for help with the powerTOSTtwo function
-powerTOSTtwo(alpha = 0.00, N = 0, statistical_power = 0.0)
+powerTOSTtwo(alpha = 0.01, N = 15, statistical_power = 0.90)
 
 #Question 5 and 6 (replace the zeroes with correct values)
 # You can type ?powerTOSTtwo for help with the powerTOSTtwo function
-powerTOSTtwo(alpha = 0.00, statistical_power = 0.0, low_eqbound_d = -0.0, high_eqbound_d = 0.0)
+powerTOSTtwo(alpha = 0.01, statistical_power = 0.9, low_eqbound_d = -0.1, high_eqbound_d = 0.1)
 
 #Question 7 (replace the zeroes with correct values)
 # You can type ?TOSTmeta for help with the TOSTmeta function
